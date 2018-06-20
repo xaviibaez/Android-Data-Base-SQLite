@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main-->
+    <string name="app_name">App De Xavi Ibànyez Martínez</string>
+    <string name="RegistrarUsuari">Registrar Usuari</string>
+    <string name="RegistrarProducte">Registrar Producte</string>
+    <string name="ConsultarUsuari">Consultar Usuari</string>
+    <string name="ConsultarProducte">Consultar Producte</string>
+    <string name="Preferencies">Preferències</string>
+
+    <!-- activity_consulta_producte_eliminar_editar-->
+    <string name="ID">ID Producte</string>
+    <string name="NomProducte">Nom Producte</string>
+    <string name="Quantitat">Quantitat</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Actualitzar">Actualitzar</string>
+    <string name="Eliminar">Eliminar</string>
+
+    <!-- activity_consulta_usuari-->
+    <string name="NomUsuari">Nom Usuari</string>
+    <string name="CognomUsuari">Cognom Usuari</string>
+    <string name="TelefonUsuari">Telèfon Usuari</string>
+
+    <!-- activity_detall_producte-->
+    <string name="InfoProducte">INFORMACIÓ PRODUCTE</string>
+    <string name="infoUsuari">INFORMACIÓ USUARI</string>
+    <string name="IDusuari">ID Usuari</string>
+
+    <!--opcions-->
+    <string name="EdiEli">Editar / Eliminar</string>
+    <string name="Consultarllista">Consultar llista</string>
+
+    <!--opcions Preferencies-->
+    <string name="CanviarColors">Canviar Colors</string>
+    <string name="CanviarIdioma">Canviar Idioma</string>
+    <string name="prefNormals">Preferencies Normals</string>
+
+    <!--Preferencies cutre-->
+    <string name="User">Usuari</string>
+    <string name="Password">Contrasenya</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Carregar">Carregar</string>
+
+    <!--Registre Producte-->
+    <string name="Comprador">Comprador</string>
+
+    <!--Registre Usuari-->
+    <string name="REGISTREDUSUARIS">REGISTRE DE USUARIS</string>
+
+    <!--Prova-->
+    <string name="Catala">Catala</string>
+    <string name="Angles">Angles</string>
+</resources>

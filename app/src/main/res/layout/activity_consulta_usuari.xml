@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <!-- Toolbar -->
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/documentID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.93"
+            android:hint="@string/ID" />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="onClick"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/Buscar" />
+
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/campNomConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NomUsuari" />
+
+        <EditText
+            android:id="@+id/campCognomConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/CognomUsuari" />
+
+        <EditText
+            android:id="@+id/campTelefonConsulta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TelefonUsuari" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnActualitzar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="onClick"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/Actualitzar" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:onClick="onClick"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/Eliminar" />
+    </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- Toolbar -->
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/REGISTREDUSUARIS"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/campIdUsuari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/IDusuari" />
+
+        <EditText
+            android:id="@+id/campNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NomUsuari" />
+
+        <EditText
+            android:id="@+id/campCognom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/CognomUsuari" />
+
+        <EditText
+            android:id="@+id/campTelefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TelefonUsuari" />
+
+        <Button
+            android:id="@+id/btnRegistre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="onClick"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/RegistrarUsuari" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Main-->
+    <string name="app_name">App Of Xavi Ibànyez Martínez</string>
+    <string name="RegistrarUsuari">Register User</string>
+    <string name="RegistrarProducte">Register Product</string>
+    <string name="ConsultarUsuari">Check User</string>
+    <string name="ConsultarProducte">Check Product</string>
+    <string name="Preferencies">Preferences</string>
+
+    <!-- activity_consulta_producte_eliminar_editar-->
+    <string name="ID">Product ID</string>
+    <string name="NomProducte">Product Name</string>
+    <string name="Quantitat">Quantity</string>
+    <string name="Buscar">Search</string>
+    <string name="Actualitzar">Update</string>
+    <string name="Eliminar">Delete</string>
+
+    <!-- activity_consulta_usuari-->
+    <string name="NomUsuari">User Name</string>
+    <string name="CognomUsuari">User Surname</string>
+    <string name="TelefonUsuari">User Phone</string>
+
+    <!-- activity_detall_producte-->
+    <string name="InfoProducte">PRODUCT</string>
+    <string name="infoUsuari">USER</string>
+    <string name="IDusuari">User ID</string>
+
+    <!--opcions-->
+    <string name="EdiEli">Edit / Delete</string>
+    <string name="Consultarllista">Check list</string>
+
+    <!--opcions Preferencies-->
+    <string name="CanviarColors">Change Colors</string>
+    <string name="CanviarIdioma">Change Language</string>
+    <string name="prefNormals">Preferences</string>
+
+    <!--Preferencies cutre-->
+    <string name="User">User</string>
+    <string name="Password">Password</string>
+    <string name="Guardar">Save</string>
+    <string name="Carregar">Load</string>
+
+    <!--Registre Producte-->
+    <string name="Comprador">Buyer</string>
+
+    <!--Registre Usuari-->
+    <string name="REGISTREDUSUARIS">USER REGISTER</string>
+
+
+    <!--Prova-->
+    <string name="Catala">Catalan</string>
+    <string name="Angles">English</string>
+</resources>

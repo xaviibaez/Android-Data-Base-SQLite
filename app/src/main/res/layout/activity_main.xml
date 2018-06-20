@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.mecagoenmismuertosv5.MainActivity"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRegistreUsuari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:layout_marginTop="32dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/RegistrarUsuari" />
+
+        <Button
+            android:id="@+id/btnRegistreProducte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="onClick"
+            android:layout_marginTop="32dp"
+            android:text="@string/RegistrarProducte" />
+
+        <Button
+            android:id="@+id/btnConsultarUsuari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="onClick"
+            android:layout_marginTop="32dp"
+            android:text="@string/ConsultarUsuari" />
+
+        <Button
+            android:id="@+id/btnConsultarProducte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:onClick="onClick"
+            android:layout_marginTop="32dp"
+            android:text="@string/ConsultarProducte" />
+
+        <Button
+            android:id="@+id/btnPreferencies"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:onClick="onClick"
+            android:text="@string/Preferencies" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- Toolbar -->
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/RegistrarProducte"
+            android:textSize="32sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/campNomProducte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NomProducte" />
+
+        <EditText
+            android:id="@+id/campQuantitat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/Quantitat" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Comprador"
+            android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/comboComprador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnRegistreProducte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:onClick="onClick"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/RegistrarProducte" />
+    </LinearLayout>
+</LinearLayout>
